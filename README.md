@@ -1,13 +1,13 @@
 API, REST e RESTFULL
 
-Cliente (client)
-Garçon (Recebe o pedido do cliente e busca na cozinha e entrega ao cliente) (API)
-Cozinha (server)
+- Cliente (client)
+- Garçon (Recebe o pedido do cliente e busca na cozinha e entrega ao cliente) (API)
+- Cozinha (server)
 
 ## Rest
-Limpo
-Bom atendimento
-Que entregue o que se pede
+- Limpo
+- Bom atendimento
+- Que entregue o que se pede
 
 Transferência de dados usando HTTP
 
