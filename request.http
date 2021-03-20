@@ -1,0 +1,80 @@
+###
+GET http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users?age=25 HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users?age=30 HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users/id?id=6054e8249240fb054421a963 HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users/cell?cell=829 HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users/cell?cell=82999998888 HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Aliny",
+    "cpf": "555.666.777-88",
+    "age": 20,
+    "cell": 999
+}
+
+###
+POST http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Bruna",
+    "cpf": "111.222.333-44",
+    "age": 20,
+    "cell": 82999998888
+}
+
+###
+POST http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Carlos",
+    "cpf": "111.111.111-11",
+    "age": 25,
+    "cell": 82999999999
+}
+
+###
+POST http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Marta",
+    "cpf": "222.222.222-22",
+    "age": 25,
+    "cell": 82988888888
+}
+
+###
+PATCH http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Carlos",
+    "cpf": 213423
+}
+
+###
+DELETE http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
